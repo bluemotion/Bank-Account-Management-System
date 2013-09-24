@@ -1,0 +1,39 @@
+Student1 Name: Wonbin Moon
+Student1 Number: 994181023
+Student2 Name: Sehoon Bae
+Student2 Number: 994536855
+
+
+1. Login
+	There are two input fields(login, password)
+	When trying to login if login id is an admin, it goes to manager interface
+	and if it's not admin, it goes to client interface
+	There's error messages for invalid login or password
+		
+2. Manager
+	There are three buttons:
+		User List: Goes to page that lists all users including admins
+		Create New User: Goes to user creation page
+		Logout: logs user out
+
+3. User List
+	Lists all users including admins
+	There's view history button that goes to transaction history page
+		
+4. Client
+	There are different sections for deposit and payment.
+	When trying to deposit or pay, it goes to confirmation page if successful
+	User can also click on View history button to view their transaction history
+	User can logout from here too.
+	
+5. Confirmation
+	Shows the processed transaction amount and the resulting account balance
+	Can click button to go back to client home.
+	
+6. Transaction History
+	If user is admin,
+		It shows transactions for all clients.
+		Back button moves user back to Manager home.
+	If user is client,
+		It shows transactions for only himself.
+		Back button moves user back to Client home.	
