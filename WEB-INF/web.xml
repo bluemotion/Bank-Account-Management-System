@@ -30,17 +30,17 @@
 		</init-param>
   		<init-param>
 			<param-name>dbURL</param-name>
-			<param-value>jdbc:mysql://bungle07.cs.toronto.edu/g9bin</param-value>
+			<param-value>dbUrlHere</param-value>
 		</init-param>
 	
 		<init-param>
 			<param-name>dbUser</param-name>
-			<param-value>g9bin</param-value>
+			<param-value>dbUserNameHere</param-value>
 		</init-param>
 		
 		<init-param>
 			<param-name>dbPassword</param-name>
-			<param-value>87514791074</param-value>
+			<param-value>YourPassword</param-value>
 		</init-param>
   	</servlet>
 
